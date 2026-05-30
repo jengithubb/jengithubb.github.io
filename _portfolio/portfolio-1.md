@@ -2,6 +2,7 @@
 title: "Education"
 permalink: /education/
 author_profile: true
+published: false
 ---
 
 <h2>University of California, San Francisco</h2>
