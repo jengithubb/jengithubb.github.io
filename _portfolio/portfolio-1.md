@@ -4,6 +4,7 @@ title: "University of California, San Francisco"
 excerpt: "M.S. in Health Data Science, Expected 2026"
 collection: portfolio
 permalink: /education/ucsf/
+published: false
 ---------------------------
 
 ## University of California, San Francisco
