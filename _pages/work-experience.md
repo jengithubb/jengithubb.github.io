@@ -4,7 +4,7 @@ permalink: /work-experience/
 author_profile: true
 ---
 
-## Student Researcher
+## Graduate Researcher
 
 **UCSF Lupo Lab**
 *May 2025 – Present*
@@ -12,7 +12,7 @@ San Francisco, CA
 
 I am a Student Researcher in the Lupo Lab at the University of California, San Francisco. The lab focuses on developing and applying advanced MR imaging acquisition, processing, and analysis techniques for studying brain tumors and other neurological diseases.
 
-In this role, I contribute to research at the intersection of biomedical imaging, data science, and machine learning. My work involves supporting imaging-related data analysis, exploring quantitative imaging features, and helping develop reproducible workflows for biomedical research.
+In this role, I contribute to research at the intersection of biomedical imaging, data science, and machine learning. My work involves supporting imaging data analysis, exploring quantitative imaging features, and developing reproducible workflows for biomedical research.
 
 **Responsibilities and Contributions:**
 
