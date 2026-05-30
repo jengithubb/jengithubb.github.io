@@ -37,7 +37,7 @@ main:
     url: /projects/
 
   - title: "Education"
-    url: /portfolio/
+    url: /education/
 
   - title: "Work Experience"
     url: /work-experience/
