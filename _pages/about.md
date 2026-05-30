@@ -14,7 +14,8 @@ I am interested in biomedical imaging, machine learning, and data science. My ac
 I am currently affiliated with the University of California, San Francisco, where I am continuing to develop my interests at the intersection of imaging, artificial intelligence, and health data science. Through my academic training and project experience, I hope to use machine learning and statistical approaches to support biomedical discovery, clinical decision-making, and improved health outcomes.
 ## Education
 
-* University of California, San Francisco — Health data science, 2026
+* University of California, San Francisco — M.S., Health Data Science, 2026
+* San Francisco State University — B.S., Statistics, 2022
 
 ## Research Interests
 
@@ -25,6 +26,4 @@ I am currently affiliated with the University of California, San Francisco, wher
 * Artificial intelligence in healthcare
 * Quantitative modeling
 
-## Projects
 
-* Project name — short description of the project, your role, and the methods or tools used
