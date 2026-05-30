@@ -36,14 +36,14 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Teaching"
-    url: /teaching/
-
   - title: "Education"
     url: /portfolio/
 
   - title: "Work Experience"
     url: /work-experience/
+    
+  - title: "Teaching"
+    url: /teaching/
 
   - title: "CV"
     url: /cv/
