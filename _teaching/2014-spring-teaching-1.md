@@ -2,8 +2,9 @@
 title: "Teaching Assistant, Programming for Health Data Science in R II"
 collection: teaching
 type: "Graduate course"
+permalink: /teaching/2025-fall-datasci-214
 venue: "University of California, San Francisco"
-date: Fall 2025
+date: 2025-09-01
 location: "San Francisco, CA"
 ---
 
