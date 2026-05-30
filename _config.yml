@@ -23,7 +23,7 @@ repository               : "jengithubb/jengithubb.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.JPG"
   name             : "Jennifer Zhu"
   pronouns         : # example: "she/her"  
   bio              : "Biomedical imaging, machine learning, deep learning, and data science"
