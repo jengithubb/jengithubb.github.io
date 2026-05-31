@@ -14,7 +14,7 @@ I am currently pursuing a Master of Science in Health Data Science at the Univer
 
 Through my graduate training, I am developing skills in programming, statistical modeling, data analysis, machine learning, and reproducible research workflows. I am particularly interested in using data-driven methods to support biomedical discovery, medical image analysis, and clinical research.
 
-**Relevant Areas:** health data science, biomedical imaging, machine learning, deep learning, statistical analysis, data visualization, reproducible research
+**Relevant Areas:** health data science, biomedical imaging, machine learning, deep learning, statistical analysis, data visualization
 
 ## San Francisco State University
 
