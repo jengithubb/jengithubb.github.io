@@ -13,7 +13,7 @@ author_profile: true
 
 **Tools:** Python, PyTorch, scikit-learn, MedMNIST, NumPy, pandas, matplotlib
 
-**Repository:** [GitHub](https://github.com/your-username/your-repository-name)
+**Repository:** [GitHub]([https://github.com/your-username/your-repository-name](https://github.com/jengithubb/DermaMNIST-CNN-project))
 
 * Classified microscopic blood cell images from the BloodMNIST dataset into eight blood cell types.
 * Compared random forest and convolutional neural network models for biomedical image classification.
