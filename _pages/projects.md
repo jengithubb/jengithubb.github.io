@@ -6,10 +6,12 @@ author_profile: true
 
 ## Blood Cell Image Classification with Machine Learning and Deep Learning
 
+![Sample BloodMNIST blood cell images](/images/bloodmnist.png)
+
 **Course:** DATASCI 223 Final Project
 **Collaborator:** Muyun Tsen
 **Tools:** Python, PyTorch, scikit-learn, MedMNIST, NumPy, pandas, matplotlib
-**Repository:** [GitHub](https://github.com/jengithubb/DermaMNIST-CNN-project)
+**Repository:** [GitHub](https://github.com/your-username/your-repository-name)
 
 * Classified microscopic blood cell images from the BloodMNIST dataset into eight blood cell types.
 * Compared random forest and convolutional neural network models for biomedical image classification.
