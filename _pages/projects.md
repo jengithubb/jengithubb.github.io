@@ -24,3 +24,19 @@ author_profile: true
 * Achieved approximately 90.1% test accuracy with the CNN model, outperforming the random forest baseline.
 
 **Keywords:** biomedical imaging, machine learning, deep learning, CNN, random forest, PyTorch, MedMNIST
+
+
+### Brain Tumor Classification Using Machine Learning
+
+**Tools:** R, logistic regression, random forest, XGBoost, model evaluation
+
+* Developed a supervised machine learning project to classify brain tumors as benign or malignant using clinical and diagnostic variables.
+* Preprocessed patient-level data, including demographic, tumor-related, symptom, MRI, and family history variables.
+* Compared logistic regression, random forest, and XGBoost models for binary classification.
+* Evaluated model performance using accuracy, sensitivity, and specificity.
+* Used feature importance analysis to examine which variables contributed most to tumor classification.
+* Identified tumor size, tumor growth rate, and age as relatively important predictors, while overall model performance remained close to random guessing.
+* Discussed limitations related to data quality, feature availability, and the clinical risk of false negatives in medical prediction tasks.
+
+**Keywords:** machine learning, brain tumor classification, clinical data, random forest, XGBoost, logistic regression, R
+
