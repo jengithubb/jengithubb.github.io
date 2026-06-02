@@ -39,6 +39,20 @@ author_profile: true
 
 **Keywords:** survival analysis, breast cancer, hormone therapy, recurrence-free survival, Cox model, Kaplan-Meier, R
 
+### Bayesian Modeling of Breast Cancer Treatment Response
+
+**Tools:** R, brms, Bayesian logistic regression, tidyverse, tidybayes, bayesplot
+
+* Used Bayesian logistic regression to study whether baseline MRI-derived tumor size and sphericity predict pathologic complete response in breast cancer patients.
+* Merged clinical and MRI feature datasets and prepared a complete-case analysis dataset with outcome, imaging, and molecular subtype variables.
+* Modeled pathologic complete response as a binary outcome using baseline lesion diameter, sphericity, hormone receptor status, and HER2 status.
+* Specified informative priors for imaging features and molecular subtype predictors to support stable Bayesian estimation.
+* Evaluated model convergence and fit using posterior predictive checks, R-hat, effective sample size, trace plots, and MCMC diagnostics.
+* Compared candidate models using leave-one-out cross-validation and selected a parsimonious model with strong predictive performance.
+* Found that HR and HER2 status showed stronger associations with treatment response than baseline tumor size or sphericity.
+
+**Keywords:** Bayesian statistics, breast cancer, MRI features, treatment response, pCR, brms, R
+
 
 ### Brain Tumor Classification Using Machine Learning
 
