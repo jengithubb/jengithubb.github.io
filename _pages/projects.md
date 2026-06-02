@@ -8,12 +8,9 @@ author_profile: true
 
 ![Sample BloodMNIST blood cell images](/images/bloodmnist.png)
 
-
-**Collaborator:** Muyun Tsen
-
 **Tools:** Python, PyTorch, scikit-learn, MedMNIST, NumPy, pandas, matplotlib
 
-**Repository:** [GitHub]([https://github.com/your-username/your-repository-name](https://github.com/jengithubb/DermaMNIST-CNN-project))
+**Repository:** [GitHub]((https://github.com/jengithubb/DermaMNIST-CNN-project))
 
 * Classified microscopic blood cell images from the BloodMNIST dataset into eight blood cell types.
 * Compared random forest and convolutional neural network models for biomedical image classification.
@@ -26,7 +23,7 @@ author_profile: true
 **Keywords:** biomedical imaging, machine learning, deep learning, CNN, random forest, PyTorch, MedMNIST
 
 ### Hormone Therapy and Breast Cancer Recurrence
-
+<img src="{{ '/images/HTBCR.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="500">
 **Tools:** R, Cox proportional hazards models, Kaplan-Meier analysis, multiple imputation
 
 * Analyzed the association between hormone therapy and recurrence-free survival among estrogen receptor-positive breast cancer patients using the METABRIC dataset.
@@ -40,6 +37,7 @@ author_profile: true
 **Keywords:** survival analysis, breast cancer, hormone therapy, recurrence-free survival, Cox model, Kaplan-Meier, R
 
 ### Bayesian Modeling of Breast Cancer Treatment Response
+<img src="{{ '/images/BT.png' | relative_url }}" alt="Breast MRI Bayesian Modeling" width="500">
 
 **Tools:** R, brms, Bayesian logistic regression, tidyverse, tidybayes, bayesplot
 
