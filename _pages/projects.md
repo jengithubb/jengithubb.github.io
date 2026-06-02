@@ -24,7 +24,7 @@ author_profile: true
 
 ### Hormone Therapy and Breast Cancer Recurrence
 
-![Sample ](/images/HTBCR.png)
+<img src="{{ '/images/HTBCR.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="350">
 
 **Tools:** R, Cox proportional hazards models, Kaplan-Meier analysis, multiple imputation
 
@@ -40,7 +40,7 @@ author_profile: true
 
 ### Bayesian Modeling of Breast Cancer Treatment Response
 
-![Sample ](/images/BT.png)
+<img src="{{ '/images/BT.png' | relative_url }}" alt="Breast MRI Bayesian Modeling" width="350">
 
 **Tools:** R, brms, Bayesian logistic regression, tidyverse, tidybayes, bayesplot
 
