@@ -25,6 +25,20 @@ author_profile: true
 
 **Keywords:** biomedical imaging, machine learning, deep learning, CNN, random forest, PyTorch, MedMNIST
 
+### Hormone Therapy and Breast Cancer Recurrence
+
+**Tools:** R, Cox proportional hazards models, Kaplan-Meier analysis, multiple imputation
+
+* Analyzed the association between hormone therapy and recurrence-free survival among estrogen receptor-positive breast cancer patients using the METABRIC dataset.
+* Conducted survival analysis with unadjusted, adjusted, and stratified Cox proportional hazards models.
+* Used multiple imputation by chained equations to handle missing clinical covariate data.
+* Evaluated the proportional hazards assumption using Schoenfeld residuals and improved model validity through stratification.
+* Created Kaplan-Meier curves to visualize recurrence-free survival by hormone therapy status.
+* Interpreted results in the context of observational clinical data, confounding, proportional hazards assumptions, and treatment heterogeneity.
+* Found a trend toward reduced recurrence hazard among hormone therapy recipients after adjustment, although the association was not statistically significant.
+
+**Keywords:** survival analysis, breast cancer, hormone therapy, recurrence-free survival, Cox model, Kaplan-Meier, R
+
 
 ### Brain Tumor Classification Using Machine Learning
 
