@@ -23,7 +23,9 @@ author_profile: true
 **Keywords:** biomedical imaging, machine learning, deep learning, CNN, random forest, PyTorch, MedMNIST
 
 ### Hormone Therapy and Breast Cancer Recurrence
-<img src="{{ '/images/HTBCR.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="500">
+
+![Sample ](/images/HTBCR.png)
+
 **Tools:** R, Cox proportional hazards models, Kaplan-Meier analysis, multiple imputation
 
 * Analyzed the association between hormone therapy and recurrence-free survival among estrogen receptor-positive breast cancer patients using the METABRIC dataset.
@@ -37,7 +39,8 @@ author_profile: true
 **Keywords:** survival analysis, breast cancer, hormone therapy, recurrence-free survival, Cox model, Kaplan-Meier, R
 
 ### Bayesian Modeling of Breast Cancer Treatment Response
-<img src="{{ '/images/BT.png' | relative_url }}" alt="Breast MRI Bayesian Modeling" width="500">
+
+![Sample ](/images/BT.png)
 
 **Tools:** R, brms, Bayesian logistic regression, tidyverse, tidybayes, bayesplot
 
