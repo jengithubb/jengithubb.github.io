@@ -79,7 +79,7 @@ Built Bayesian logistic regression models to study whether baseline MRI-derived 
 
 ## Breast Tumor Classification with PCA and Quadratic Discriminant Analysis
 
-**Tools:** Python/R, PCA, Quadratic Discriminant Analysis, classification modeling, dimensionality reduction, ROC AUC
+**Tools:** Python, PCA, Quadratic Discriminant Analysis, classification modeling, dimensionality reduction, ROC AUC
 
 Built a statistical classification model to distinguish benign and malignant breast tumors using the Breast Cancer Wisconsin dataset. This project applied dimensionality reduction and supervised classification methods to cell nucleus features extracted from digitized biopsy images.
 
