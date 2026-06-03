@@ -25,7 +25,7 @@ author_profile: true
 
 ### Radiopathomic Pathology Maps for Glioblastoma MRI Analysis
 
-<img src="{{ '/images/PM.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="350">
+<img src="{{ '/images/PM.png' | relative_url }}" alt="GBM" width="350">
 
 **Tools:** Python, 3D Slicer, NIfTI, NiBabel, NumPy, pandas, lifelines, scikit-learn, medical image visualization
 
