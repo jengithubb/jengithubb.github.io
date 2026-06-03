@@ -35,7 +35,7 @@ redirect_from:
   * Help students apply reproducible data science workflows to health-related datasets.
   * Provide guidance on data cleaning, analysis, visualization, and debugging in R.
 
-# Selected Projects
+# Projects
 
 * **Radiopathomic Pathology Maps and Survival Outcomes in Glioblastoma**
 
