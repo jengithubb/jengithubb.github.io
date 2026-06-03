@@ -22,6 +22,25 @@ author_profile: true
 
 **Keywords:** biomedical imaging, machine learning, deep learning, CNN, random forest, PyTorch, MedMNIST
 
+
+### Radiopathomic Pathology Maps for Glioblastoma MRI Analysis
+
+<img src="{{ '/images/PM.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="350">
+
+**Tools:** Python, 3D Slicer, NIfTI, NiBabel, NumPy, pandas, lifelines, scikit-learn, medical image visualization
+
+* Worked with brain MRI and radiopathomic pathology maps in patients with newly diagnosed glioblastoma.
+* Processed and visualized NIfTI-based imaging data, including cellularity maps and tumor probability maps derived from multiparametric MRI.
+* Used 3D Slicer to inspect volumetric brain MRI scans, contrast-enhancing lesions, non-enhancing lesions, and pathology-informed map overlays.
+* Extracted and analyzed imaging features from contrast-enhancing and non-enhancing tumor regions across longitudinal timepoints.
+* Evaluated radiopathomic features using survival analysis methods, including Cox proportional hazards models and Kaplan-Meier analysis.
+* Examined associations between imaging-derived tumor burden, cellularity heterogeneity, and clinical outcomes such as progression-free survival and overall survival.
+* Applied multiple-comparison correction to support more careful interpretation of exploratory imaging biomarkers.
+* Strengthened experience in biomedical imaging, brain tumor analysis, NIfTI workflows, radiopathomic feature extraction, and Python-based survival modeling.
+
+**Keywords:** glioblastoma, brain MRI, radiopathomic maps, pathology maps, cellularity maps, tumor probability maps, NIfTI, 3D Slicer, survival analysis, Python
+
+
 ### Hormone Therapy and Breast Cancer Recurrence
 
 <img src="{{ '/images/HTBCR.png' | relative_url }}" alt="Hormone Therapy and Breast Cancer Recurrence" width="350">
