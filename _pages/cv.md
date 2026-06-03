@@ -36,7 +36,7 @@ redirect_from:
 
 # Selected Projects
 
-* **Radiopathomic Pathology Maps for Brain Tumor MRI**
+* **Radiopathomic Pathology Maps and Survival Outcomes in Glioblastoma**
 
   * Analyzed brain MRI and radiopathomic pathology maps for patients with newly diagnosed glioblastoma.
   * Worked with NIfTI imaging files, cellularity maps, and tumor probability maps derived from multiparametric MRI.
