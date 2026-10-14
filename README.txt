@@ -1,5 +1,8 @@
-Brain Tumor Additional Project update
+Homepage V4 — Jennifer Zhu
 
-Replace only projects.html in your GitHub Pages repository root. Do not delete any existing site files. Commit and push from GitHub Desktop.
+1. Copy index.html to the root of jengithubb.github.io (replace existing).
+2. Copy homepage-v4.css to the same root (new file).
+3. Keep styles.css, script.js, all project pages, research.html, cv.html, assets/, and .nojekyll unchanged.
+4. Commit and Push in GitHub Desktop.
 
-The Brain Tumor project is intentionally a concise additional project, not a clinical diagnostic model.
+Changes: organic hero visual (decorative SVG), open-to-research-opportunities block, larger supporting text, softer project cards and research workflow styling. No unpublished study data is shown.
