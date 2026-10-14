@@ -1,0 +1,115 @@
+/* V9 interactive constellation, editorial bento skills and scannable experience */
+:root{--v9-ink:#29483c;--v9-deep:#244b3b;--v9-line:rgba(58,97,74,.18)}
+/* Readability without shrinking on mobile */
+body{font-size:17px}
+.site-nav a,.nav-cta,.button,.text-link,.v4-opportunity strong,.contact-links a{font-size:clamp(15px,1.15vw,16px)!important}
+.section-index,.eyebrow,.detail-num,.timeline-kind,.timeline-date,.project-meta,.figure-number,.method-arrow,.diagram-head,.branch-id,.pill,.tag-row span,.v8-project-kicker{font-size:15px!important;letter-spacing:.035em!important;line-height:1.5!important}
+.hero-desc,.hero-affiliation,.hero-affiliation strong,.v4-opportunity p,.project-body p,.about-detail p,.research-copy p,.research-points p,.timeline-detail,.cv .page-intro,.cv .cvv-project-intro,.cv .detail li,.cv .detail p{font-size:17px!important;line-height:1.75!important}
+.project-body .tag-row span{font-size:14px!important}
+.method-timepoints span,.method-branches small,.method-outcome,.method-branches strong{font-size:15px!important}
+#research,#about,#projects,#experience,#skills,#contact,#research-interests,#research-interests-section,.detail[id]{scroll-margin-top:108px}
+
+/* HERO / custom interactive constellation */
+.hero .v9-constellation{
+ position:relative!important;isolation:isolate;min-height:610px;height:610px!important;padding:0!important;overflow:hidden!important;
+ border-radius:34px!important;border:1px solid #e0e6dc!important;
+ background:radial-gradient(ellipse at 47% 39%,rgba(255,255,255,.85),transparent 33%),radial-gradient(ellipse at 79% 76%,#e9e2f4,transparent 53%),radial-gradient(ellipse at 15% 30%,#e0ebe1,transparent 52%),#f9f6ee!important;
+ box-shadow:0 25px 55px rgba(38,72,56,.085)!important
+}
+.v9-constellation::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(#95b5a7 1.1px,transparent 1.1px);background-size:37px 37px;mask-image:radial-gradient(ellipse at center,#0007 0%,transparent 71%)}
+.v9-map-header{position:absolute;top:26px;left:25px;right:25px;display:flex;gap:9px;justify-content:space-between;align-items:center;z-index:7;color:#547362}
+.v9-map-header span{font-size:13px;font-weight:800;letter-spacing:.09em}
+.v9-map-instruct{display:inline-flex;gap:8px;align-items:center;color:#4c7965}
+.v9-pulse{display:inline-block;width:7px;height:7px;background:#72a88a;border-radius:50%;box-shadow:0 0 0 5px #d8e8db}
+.v9-map-paths{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+.v9-map-paths path{stroke:rgba(80,135,107,.25);stroke-width:1.5;stroke-dasharray:3 5}
+.v9-map-paths ellipse{stroke:rgba(100,132,108,.1);stroke-width:1}
+.v9-map-core{position:absolute;top:46%;left:50%;width:172px;height:172px;padding:16px;transform:translate(-50%,-50%);z-index:2;border:1px solid #cee1d2;border-radius:50%;background:radial-gradient(circle at 31% 27%,#f9fdf8,#d4e6d5 75%,#bedacb);box-shadow:0 20px 44px rgba(65,103,80,.11),inset 0 0 0 7px rgba(255,255,255,.22);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;pointer-events:none;transition:background .2s}
+.v9-core-overline{font-size:10px;font-weight:800;letter-spacing:.04em;color:#668574;line-height:1.25}
+.v9-map-core strong{font:750 19px/1.22 Manrope,sans-serif;letter-spacing:-.055em;color:#2d5745;max-width:155px}
+.v9-map-core strong em{font:italic 1.07em Georgia,serif;letter-spacing:-.02em}
+.v9-core-foot{font-size:12px;line-height:1.3;color:#577967;max-width:137px}
+.v9-node{position:absolute;z-index:5;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:5px;width:171px;height:137px;padding:15px 13px!important;border-radius:48% 52% 56% 44% / 49% 39% 61% 51%;border:1px solid rgba(84,119,96,.21)!important;text-decoration:none!important;color:#2c5444!important;box-shadow:0 10px 27px rgba(54,84,66,.085),inset 0 0 0 6px rgba(255,255,255,.17);transform:translate(-50%,-50%);transition:transform .25s ease,box-shadow .25s ease,filter .25s ease,border-radius .3s ease}
+.v9-node:hover,.v9-node:focus-visible{transform:translate(-50%,-50%) scale(1.085) rotate(-1deg);box-shadow:0 16px 37px rgba(49,80,61,.18),0 0 0 4px rgba(255,255,255,.65);border-radius:52% 48% 45% 55% / 43% 58% 42% 57%;outline:2px solid #487d64;outline-offset:3px}
+.v9-node strong{display:block;font:760 16px/1.22 Manrope,sans-serif;color:#2c4f41;letter-spacing:-.04em}
+.v9-node-symbol{font-family:Georgia,serif;font-size:30px;line-height:1;color:#557966;margin-top:-3px}
+.v9-node-arrow{position:absolute;right:19px;top:24px;font-size:17px;font-weight:800;color:#6f8b75;opacity:.8}
+.v9-node-imaging{top:22%;left:23%;background:linear-gradient(140deg,#f1f7ef,#cfe6d5)}
+.v9-node-stats{top:22%;left:79%;background:linear-gradient(140deg,#faf7ff,#e2d8f3)}
+.v9-node-ml{top:67%;left:20%;background:linear-gradient(140deg,#f3f8fa,#d5e6f4)}
+.v9-node-ai{top:67%;left:80%;background:linear-gradient(140deg,#fff8ef,#f2dcca)}
+.v9-node-neuro{top:87%;left:50%;background:linear-gradient(140deg,#f4f7ef,#dae6d8);width:168px;height:128px}
+.v9-node-neuro .v9-node-symbol{font-size:25px}
+.v9-sprinkle{position:absolute;z-index:2;pointer-events:none;color:#abc7b0}.v9-sprinkle-a{top:37%;left:8%;font-size:22px}.v9-sprinkle-b{top:48%;right:8%;color:#c3b5d8}.v9-sprinkle-c{top:12%;left:53%;color:#d7b9a1;font-size:24px}
+.v9-map-footnote{position:absolute;bottom:15px;right:22px;color:#5f776b;font-weight:800;letter-spacing:.06em;font-size:11px;z-index:3}
+.v9-is-active .v9-map-core{background:radial-gradient(circle at 30% 27%,#fffefa,#d9e8df 70%,#d2e0dc)}
+
+/* HOMEPAGE / Methods & Tools bento */
+.v9-methods .ac-section-lead{max-width:790px;font-size:18px!important;line-height:1.7!important}
+.v9-methods-layout{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}
+.v9-method-tile{position:relative;overflow:hidden;min-height:310px;padding:28px 32px 27px;border:1px solid rgba(63,85,70,.12);border-radius:24px;display:flex;flex-direction:column;box-shadow:0 7px 25px rgba(45,68,50,.036);transition:transform .2s ease,box-shadow .2s ease}
+.v9-method-tile:hover{transform:translateY(-3px);box-shadow:0 15px 35px rgba(45,68,50,.09)}
+.v9-method-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;color:#5a7969;font-size:14px;font-weight:800;letter-spacing:.065em}
+.v9-tile-glyph{position:absolute;right:18px;top:-2px;pointer-events:none;opacity:.25;font:italic 132px/1 Georgia,serif;letter-spacing:-.12em;color:#5f8f74;transform:rotate(-10deg)}
+.v9-method-tile h3{position:relative;margin:23px 0 10px;font:760 clamp(24px,2.45vw,34px)/1.17 Manrope,sans-serif;letter-spacing:-.06em;color:#2b5040}
+.v9-method-tile>p{position:relative;max-width:43ch;margin:0 0 14px;color:#496658;font-size:17px!important;line-height:1.55!important}
+.v9-method-tile ul{position:relative;list-style:none;margin:4px 0 19px;padding:0;display:grid;gap:6px}
+.v9-method-tile li{font-size:16px;line-height:1.55;color:#365c4a;display:flex;gap:9px;align-items:flex-start}
+.v9-method-tile li::before{content:'↗';color:#5a9b7d;font-weight:800;font-size:14px;margin-top:2px}
+.v9-method-link{position:relative;display:inline-block;align-self:flex-start;margin-top:auto;padding-top:8px;color:#285e48!important;text-decoration:none!important;font-weight:750;font-size:15px}
+.v9-method-link:hover{text-decoration:underline!important;text-underline-offset:4px}
+.v9-method-stat{background:#e0ecdf}
+.v9-method-ml{background:#eee9f7}
+.v9-method-imaging{background:#e0edef}
+.v9-method-dl{background:#f8e9de}
+.v9-tools-strip{display:grid;grid-template-columns:minmax(245px,.83fr) 1.6fr;gap:28px;align-items:center;margin-top:19px;padding:25px 28px;border-radius:23px;background:#f8f6ef;border:1px solid #e0e3d9}
+.v9-tools-intro{display:flex;align-items:center;gap:15px}.v9-tools-symbol{font:800 29px/1.3 Manrope,sans-serif;color:#709c82;background:#e3eee5;padding:14px 12px;border-radius:15px;white-space:nowrap}
+.v9-tools-intro strong{display:block;color:#2c5041;font-size:18px;line-height:1.35}.v9-tools-intro p{font-size:15px!important;color:#5e7565;margin:3px 0 0;line-height:1.5!important}
+.v9-tools-list{display:flex;gap:8px;flex-wrap:wrap}
+.v9-tools-list span{border:1px solid #dbe5db;background:#fffdf9;color:#446452;border-radius:99px;font-size:15px;font-weight:650;padding:7px 12px}
+
+/* BACKGROUND & EXPERIENCE / bullets and structured skill panels */
+.cv .cvv-projects{gap:22px!important}
+.cv .cvv-projects .v8-project-card{min-height:345px!important;padding:26px 27px 25px!important;transition:transform .2s ease,box-shadow .2s ease}
+.cv .cvv-projects .v8-project-card:hover{transform:translateY(-3px);box-shadow:0 15px 34px rgba(36,62,46,.09)}
+.cv .cvv-projects .v8-project-card h3{font-size:clamp(21px,2vw,24px)!important;letter-spacing:-.035em}
+.cv .v9-project-bullets{list-style:none!important;margin:8px 0 22px!important;padding:0!important;display:grid;gap:9px}
+.cv .v9-project-bullets li{position:relative;line-height:1.56!important;font-size:16.5px!important;color:#3d584a!important;padding:0 0 0 18px!important;margin:0!important}
+.cv .v9-project-bullets li:before{content:"";position:absolute;left:0;top:11px;width:6px;height:6px;border-radius:50%;background:#66977d}
+.cv .cvv-projects .v8-project-card:nth-child(4n+2) .v9-project-bullets li:before{background:#9886b7}
+.cv .cvv-projects .v8-project-card:nth-child(4n+3) .v9-project-bullets li:before{background:#c89476}
+.cv .cvv-projects .v8-project-card:nth-child(4n+4) .v9-project-bullets li:before{background:#78a8b0}
+.cv .v8-project-link{font-size:16px!important;line-height:1.5}
+.cv .v8-project-kicker{font-size:14px!important}
+.cv .detail p,.cv .detail li{line-height:1.65!important}
+.cv .v9-expertise-intro{font-size:18px!important;max-width:700px;color:#657a6b;margin:-3px 0 25px}
+.cv .cvv-skills{gap:12px!important}
+.cv .cvv-skills .v9-skill-card{position:relative;display:grid;grid-template-columns:42px 1fr;grid-template-rows:auto 1fr;align-content:start;column-gap:8px;padding:26px!important;border-radius:18px!important}
+.cv .cvv-skills .v9-skill-index{grid-row:1/3;font:800 25px/1.3 Manrope,sans-serif;color:#7ba38c;letter-spacing:-.045em}
+.cv .cvv-skills .v9-skill-card h3{grid-column:2;margin:2px 0 10px!important;font-size:20px!important;line-height:1.4}
+.cv .cvv-skills .v9-skill-card p{grid-column:2;font-size:16.5px!important;line-height:1.62!important}
+.cv #research-interests{scroll-margin-top:114px}
+
+@media(max-width:1200px){.v9-node{width:157px;height:129px}.v9-node strong{font-size:15px}.v9-node-symbol{font-size:26px}.v9-map-core{width:148px;height:148px}.v9-map-core strong{font-size:17px}}
+@media(max-width:1050px){.hero .v9-constellation{min-height:555px;height:555px!important}.v9-node{width:145px;height:119px}.v9-node strong{font-size:14px}.v9-node-symbol{font-size:24px}.v9-map-core{width:130px;height:130px}.v9-map-core strong{font-size:15px}.v9-core-foot{font-size:11px}.v9-node-neuro{width:147px;height:116px}}
+@media(max-width:760px){
+ .hero .v9-constellation{min-height:0;height:auto!important;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;padding:53px 19px 49px!important;overflow:visible!important}
+ .v9-map-header{top:15px;left:18px;right:18px}.v9-map-header span{font-size:12px}
+ .v9-map-paths,.v9-map-core,.v9-sprinkle{display:none!important}
+ .v9-node,.v9-node-imaging,.v9-node-stats,.v9-node-ml,.v9-node-ai,.v9-node-neuro{position:relative;top:auto;left:auto;right:auto;bottom:auto;width:100%;height:125px;border-radius:24px;transform:none!important;padding:15px!important}
+ .v9-node:hover,.v9-node:focus-visible{transform:translateY(-3px)!important;border-radius:24px;outline-offset:1px}
+ .v9-node-neuro{grid-column:span 2;height:115px}.v9-node strong{font-size:16px}.v9-node-symbol{font-size:23px}.v9-node-arrow{top:10px;right:15px}
+ .v9-map-footnote{bottom:16px;right:20px;font-size:10px}
+ .v9-methods-layout{grid-template-columns:1fr}
+ .v9-method-tile{min-height:0;padding:26px}.v9-method-tile h3{font-size:29px}.v9-method-tile p{font-size:17px!important}
+ .v9-tools-strip{grid-template-columns:1fr;gap:17px}
+ .cv .cvv-projects .v8-project-card{min-height:0!important;padding:26px!important}
+ .cv .v9-project-bullets li{font-size:16.5px!important}
+ .cv .cvv-skills .v9-skill-card{grid-template-columns:34px 1fr;padding:22px!important}
+ .cv .cvv-skills .v9-skill-index{font-size:21px}
+}
+@media(max-width:400px){.v9-node strong{font-size:14px}.v9-map-header{align-items:flex-start}.v9-map-instruct{font-size:10px!important}.v9-method-tile{padding:23px}.cv .cvv-projects .v8-project-card{padding:21px!important}}
+@media(prefers-reduced-motion:reduce){.v9-node,.v9-method-tile,.cv .v8-project-card{transition:none!important}}
+
+/* V9 refined mobile constellation: let grid content set its height */
+@media(max-width:760px){.hero .v9-constellation{aspect-ratio:auto!important;min-height:500px!important;}}
