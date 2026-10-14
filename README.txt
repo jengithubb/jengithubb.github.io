@@ -1,8 +1,5 @@
-Homepage V4 — Jennifer Zhu
+CV + Transformer/LLM website update
 
-1. Copy index.html to the root of jengithubb.github.io (replace existing).
-2. Copy homepage-v4.css to the same root (new file).
-3. Keep styles.css, script.js, all project pages, research.html, cv.html, assets/, and .nojekyll unchanged.
-4. Commit and Push in GitHub Desktop.
+Copy index.html, cv.html, projects.html, transformer-llm.html, cv-v5.css to repository root. MERGE assets/ PDFs into existing assets/ folder (do not replace entire assets folder). Keep existing styles.css, subpages.css, .nojekyll, .github and .git.
 
-Changes: organic hero visual (decorative SVG), open-to-research-opportunities block, larger supporting text, softer project cards and research workflow styling. No unpublished study data is shown.
+The project is an exploratory course-work page; nanoGPT training success is not claimed. All PDFs reflect earlier drafted CV/Resume versions, not a newly updated TA-specific export. Replace PDF versions later when final resumes are approved.
