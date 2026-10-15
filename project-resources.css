@@ -1,0 +1,65 @@
+/* Project repositories and reports: shared across cards and case-study pages. */
+.project-resources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+.project-resources .resource-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 9px 16px;
+  border: 1px solid #39745d;
+  border-radius: 10px;
+  background: #f9fbf7;
+  color: #28553f;
+  font: 700 14px/1.45 'DM Sans', sans-serif;
+  text-decoration: none;
+  transition: background-color .15s ease, color .15s ease;
+}
+.project-resources .resource-code {
+  background: #285d49;
+  color: #fff;
+  border-color: #285d49;
+}
+.project-resources .resource-link:hover {
+  background: #e4eee2;
+  color: #214b39;
+  text-decoration: none;
+}
+.project-resources .resource-code:hover {
+  background: #1d4736;
+  color: #fff;
+}
+.project-resources .resource-link:focus-visible {
+  outline: 3px solid #39745d;
+  outline-offset: 4px;
+}
+.project-resources--hero { margin-top: 26px; }
+.project-resources--hero .resource-link {
+  padding: 11px 20px;
+  min-height: 48px;
+  font-size: 16px;
+}
+.v10-archive-card .project-resources,
+.v8-project-card .project-resources { margin-top: 16px; }
+.case-section .resource-note {
+  padding-left: 16px;
+  border-left: 3px solid #91b29e;
+  margin-top: 22px;
+  color: #52695d;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+}
+@media (max-width: 420px) {
+  .project-resources { gap: 8px; }
+  .project-resources .resource-link { padding-inline: 12px; }
+  .project-resources--hero .resource-link { flex: 1 1 140px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-resources .resource-link { transition: none; }
+}
