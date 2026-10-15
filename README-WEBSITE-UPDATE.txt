@@ -35,3 +35,19 @@ Verification: repository branches and report file paths were checked against
 the published repositories. Local asset and page links, resource-link placement,
 and mobile button CSS were checked statically. Browser rendering was not tested
 in the preparation environment. This package does not automatically deploy itself.
+
+
+TYPOGRAPHY UPDATE — V11
+
+All nine HTML pages load typography-v11.css after the existing stylesheets.
+Upload this new CSS file and replace the HTML files to activate the update.
+The original layout, project links, reports and existing content are retained.
+
+Changes: stronger heading contrast and font weight; more prominent homepage
+research statement; short evidence lines on project cards; selective bolding of
+research methods; emphasis on the first case-study statistic; mobile font rules.
+The homepage METABRIC card title now matches the project detail page.
+
+Verification includes HTML structure, local link targets, preservation of project
+resource URLs and static checks of the new color contrast and CSS. Browser
+rendering was not available in the preparation environment.

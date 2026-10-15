@@ -1,0 +1,158 @@
+/* V11: clear reading order, selective emphasis and prominent project evidence. */
+:root {
+  --focus-ink: #173b2c;
+  --focus-green: #315f48;
+  --focus-body: #42594d;
+  --focus-muted: #586b60;
+}
+
+/* Main statements carry more weight than labels, tags and body copy. */
+.hero h1,
+.subpage h1,
+.case-hero h1 {
+  color: var(--focus-ink);
+  font-weight: 800;
+  letter-spacing: -.045em;
+}
+.hero h1 span { color: var(--focus-green); }
+.hero .hero-lead {
+  margin: 22px 0 20px;
+  max-width: 580px;
+  color: var(--focus-ink);
+  font: 800 clamp(24px, 2.25vw, 31px)/1.35 Manrope, sans-serif;
+  letter-spacing: -.035em;
+}
+.hero .hero-lead em {
+  color: var(--focus-green);
+  font: inherit;
+}
+.hero .hero-desc { color: var(--focus-body); }
+.hero-desc strong,
+.page-intro strong,
+.case-summary strong,
+.research-copy p strong,
+.detail p strong,
+.detail li strong,
+.case-section p strong,
+.case-section li strong {
+  color: var(--focus-ink);
+  font-weight: 700;
+}
+
+.section-heading h2,
+.detail h2,
+.cv .detail h2,
+.case-section h2,
+.v10-archive-section > h2 {
+  color: var(--focus-ink);
+  font-family: Manrope, sans-serif;
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -.035em;
+}
+.section-heading h2 { font-size: clamp(34px, 3.8vw, 48px); }
+.detail h2,
+.cv .detail h2,
+.case-section h2,
+.v10-archive-section > h2 {
+  font-size: clamp(28px, 2.8vw, 36px) !important;
+  margin-bottom: 22px;
+}
+.section-heading h2 .soft {
+  color: var(--focus-green);
+  font-family: inherit;
+  font-weight: 800;
+  font-style: normal;
+}
+.research-copy h3,
+.project-body h3,
+.v10-archive-card h3,
+.cv .detail .v8-project-card h3 {
+  color: var(--focus-ink);
+  font-weight: 800;
+  line-height: 1.28;
+  letter-spacing: -.025em;
+}
+.project-body h3,
+.v10-archive-card h3,
+.cv .detail .v8-project-card h3 {
+  font-size: clamp(23px, 2.2vw, 29px) !important;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+.research-copy h3 { font-size: clamp(29px, 2.8vw, 37px); }
+.case-method h3,
+.two-strategies h3,
+.timeline-content h3 {
+  color: var(--focus-ink);
+  font-weight: 800;
+}
+
+/* Supporting text remains readable, with quieter weight and no forced height. */
+.project-body p,
+.v10-archive-card li,
+.v8-project-card li { color: var(--focus-body); }
+.project-body > p { min-height: 0; }
+.tag-row span {
+  color: var(--focus-muted);
+  font-weight: 500;
+}
+.section-index,
+.detail-num,
+.project-meta,
+.v10-card-kicker,
+.v8-project-kicker {
+  color: var(--focus-green);
+  font-weight: 600;
+}
+
+/* A short evidence line can be scanned before the full project description. */
+.project-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 12px;
+  padding: 13px 0 16px;
+  margin: 0 0 8px;
+  border-top: 1px solid #b7cbbc;
+}
+.project-highlight strong {
+  color: var(--focus-ink);
+  font: 800 clamp(27px, 2.8vw, 35px)/1.15 Manrope, sans-serif;
+  letter-spacing: -.035em;
+  font-variant-numeric: tabular-nums;
+}
+.project-highlight span {
+  color: var(--focus-body);
+  font: 500 14px/1.5 'DM Sans', sans-serif;
+}
+.project-highlight--method strong { font-size: clamp(24px, 2.3vw, 29px); }
+.v10-archive-card li strong,
+.v8-project-card li strong { color: var(--focus-ink); font-weight: 700; }
+
+/* On case studies, the first statistic is the primary visual entry point. */
+.case-stat strong {
+  color: var(--focus-ink);
+  font-size: clamp(34px, 3.8vw, 48px);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.case-stat:first-child { background: #214c3b; border-color: #214c3b; }
+.case-stat:first-child strong { color: #fff; }
+.case-stat:first-child small { color: #e2ebe4; }
+.case-results th { color: var(--focus-ink); font-weight: 700; }
+.case-results tbody td strong { color: #214c3b; font-weight: 700; }
+.project-resources .resource-link { font-weight: 700; }
+.hero-actions .button.primary { background: #214c3b; color: #fff; }
+.v4-opportunity strong { color: var(--focus-ink); font-weight: 700; }
+
+@media (max-width: 760px) {
+  .hero .hero-lead { font-size: 25px; max-width: 28ch; }
+  .section-heading h2 { font-size: 34px; }
+  .project-body h3,
+  .v10-archive-card h3,
+  .cv .detail .v8-project-card h3 { font-size: 24px !important; }
+  .project-highlight { gap: 5px 10px; }
+  .project-highlight strong { font-size: 31px; }
+  .project-highlight--method strong { font-size: 26px; }
+}
